@@ -28,6 +28,11 @@
       "name": "eject",
       "command": "npm run eject",
       "runAtStart": false
+    },
+    "Install Dependencies": {
+      "name": "Install Dependencies",
+      "command": "npm install --legacy-peer-deps",
+      "runAtStart": false
     }
   }
 }
