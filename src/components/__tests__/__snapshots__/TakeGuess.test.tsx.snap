@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the last snapshot 1`] = `
+Array [
+  <label>
+    Guess: 
+  </label>,
+  <input
+    onChange={[Function]}
+    onKeyDown={[Function]}
+    type="number"
+    value=""
+  />,
+  <button
+    onClick={[Function]}
+  >
+    Make guess
+  </button>,
+]
+`;

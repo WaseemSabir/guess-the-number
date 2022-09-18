@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Match snapshot 1`] = `
+Array [
+  <h3>
+    Game Config
+  </h3>,
+  <div>
+    <label
+      data-testid="lower-bound-label"
+    >
+      Lower bound: 
+    </label>
+    <input
+      data-testid="lower-bound-input"
+      id="lower-bound-input"
+      onChange={[Function]}
+      type="number"
+      value={1}
+    />
+  </div>,
+  <div>
+    <label
+      data-testid="upper-bound-label"
+    >
+      Upper bound: 
+    </label>
+    <input
+      data-testid="upper-bound-input"
+      id="upper-bound-input"
+      onChange={[Function]}
+      type="number"
+      value={10}
+    />
+  </div>,
+  <button
+    data-testid="reset-button"
+    onClick={[Function]}
+  >
+    Reset
+  </button>,
+]
+`;

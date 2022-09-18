@@ -3,6 +3,7 @@ import React, {useEffect, useState} from 'react';
 import GameConfig from "./components/GameConfig";
 import TakeGuess from "./components/TakeGuess";
 import GameState from "./components/GameState";
+import makeStatus from "./utils";
 
 export default function App() {
 
@@ -15,7 +16,6 @@ export default function App() {
 
     useEffect(() => {
         // will only run once, on start
-        document.title = "Guess the Number"
         resetNumber()
     }, [])
 
@@ -31,14 +31,6 @@ export default function App() {
     function onNewGuess(guess: number) {
         setLastGuess(guess.toString())
         setStatus(makeStatus(guess, numberToGuess))
-    }
-
-    function makeStatus(lastGuess: number, correctNumber: number): string {
-        if (lastGuess === correctNumber) {
-            return "You got it!"
-        } else {
-            return "Nope. " + ((lastGuess > correctNumber) ? "Lower" : "Higher");
-        }
     }
 
     return (

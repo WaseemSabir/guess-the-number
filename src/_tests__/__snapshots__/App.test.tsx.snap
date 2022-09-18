@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test snapshot with default bound 1`] = `
+Array [
+  <div>
+    <h3>
+      Play!
+    </h3>
+    <div>
+      Guess the number between 
+      1
+       and 
+      10
+    </div>
+    <div>
+      Last guess: 
+      none
+    </div>
+    <label>
+      Guess: 
+    </label>
+    <input
+      onChange={[Function]}
+      onKeyDown={[Function]}
+      type="number"
+      value=""
+    />
+    <button
+      onClick={[Function]}
+    >
+      Make guess
+    </button>
+  </div>,
+  <h3>
+    Game Config
+  </h3>,
+  <div>
+    <label
+      data-testid="lower-bound-label"
+    >
+      Lower bound: 
+    </label>
+    <input
+      data-testid="lower-bound-input"
+      id="lower-bound-input"
+      onChange={[Function]}
+      type="number"
+      value={1}
+    />
+  </div>,
+  <div>
+    <label
+      data-testid="upper-bound-label"
+    >
+      Upper bound: 
+    </label>
+    <input
+      data-testid="upper-bound-input"
+      id="upper-bound-input"
+      onChange={[Function]}
+      type="number"
+      value={10}
+    />
+  </div>,
+  <button
+    data-testid="reset-button"
+    onClick={[Function]}
+  >
+    Reset
+  </button>,
+]
+`;

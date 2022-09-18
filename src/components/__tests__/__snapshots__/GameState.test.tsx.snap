@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the last snapshot 1`] = `
+Array [
+  <h3>
+    Play!
+  </h3>,
+  <div>
+    Guess the number between 
+    10
+     and 
+    100
+  </div>,
+  <div>
+    Last guess: 
+    9
+  </div>,
+  <div>
+    You got it!
+  </div>,
+]
+`;
