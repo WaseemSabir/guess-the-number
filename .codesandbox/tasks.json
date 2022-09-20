@@ -22,7 +22,7 @@
     "test": {
       "name": "test",
       "command": "npm run test",
-      "runAtStart": false
+      "runAtStart": true
     },
     "eject": {
       "name": "eject",
